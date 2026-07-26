@@ -1,13 +1,13 @@
 # starter-data-ws .gitignore
 # ═══════════════════════════
 #
-# Ignore everything, whitelist only working-set-owned files.
+# Ignore everything; allowlist only working-set-owned files.
 # Subproject repos are independent git repos cloned by ws:scaffold-init.
 
 # ── Ignore everything by default ─────────────────────────────────
 *
 
-# ── Whitelist working-set-level files ────────────────────────────
+# ── Allowlist working-set-level files ────────────────────────────
 !.gitignore
 !pom.xml
 !workspace.yaml
@@ -21,11 +21,11 @@
 !mvnw.cmd
 !versions-upgrade-rules.yaml
 
-# ── Whitelist scaffold lockfile ──────────────────────────────────
+# ── Allowlist scaffold lockfile ──────────────────────────────────
 !.ike/
 !.ike/scaffold.lock
 
-# ── Whitelist working-set-owned directories ──────────────────────
+# ── Allowlist working-set-owned directories ──────────────────────
 !.mvn/
 !.mvn/**
 !checkpoints/

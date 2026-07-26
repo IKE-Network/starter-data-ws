@@ -38,6 +38,17 @@
 
     <name>starter-data-ws</name>
 
+    <distributionManagement>
+        <!-- Explicit <site> URL — inheriting ike-parent outside the
+             ike-platform reactor pulls in a site URL template tuned for
+             in-reactor modules; ike-issues#383's enforcer fails the build
+             when an external consumer leaves the in-reactor URL inherited. -->
+        <site>
+            <id>ike-site</id>
+            <url>https://ike.network/${project.artifactId}/</url>
+        </site>
+    </distributionManagement>
+
     <properties>
         <maven.compiler.release>26</maven.compiler.release>
     </properties>
