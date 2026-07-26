@@ -43,6 +43,6 @@
     </properties>
 
     <subprojects>
-        <!-- managed by ws:add / ws:remove -->
+        <subproject>ike-starter-set</subproject>
     </subprojects>
 </project>

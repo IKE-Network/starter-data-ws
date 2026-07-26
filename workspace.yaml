@@ -24,3 +24,12 @@ defaults:
 
 subprojects:
   # Add subprojects with: mvn ws:add -Drepo=<git-url>
+
+  ike-starter-set:
+    description: >
+      ike-starter-set subproject.
+    repo: https://github.com/IKE-Network/ike-starter-set.git
+    branch: feature/chronology-builder
+    version: "1-chronology-builder-SNAPSHOT"
+    groupId: network.ike.foundation
+    depends-on: []
