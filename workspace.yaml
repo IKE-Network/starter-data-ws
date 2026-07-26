@@ -1,0 +1,26 @@
+# workspace.yaml — starter-data-ws
+# ══════════════════════════════════
+#
+# starter-data-ws
+#
+# Working set for the IKE starter-data repositories: the authored
+# knowledge-set ledgers whose canonical libraries (tinkar-core,
+# ike-knowledge-provider, komet-bom) live on main in their own repos
+# and are consumed from ~/.m2 / Nexus — deliberately NOT subprojects
+# here (see the komet working set for the library side).
+#
+# Bootstrap:
+#   git clone https://github.com/IKE-Network/starter-data-ws.git
+#   cd starter-data-ws
+#   mvn ws:scaffold-init
+#   mvn clean install
+
+schema-version: "1.0"
+generated: 2026-07-25
+
+defaults:
+  branch: main
+  maven-version: "4.0.0-rc-5"
+
+subprojects:
+  # Add subprojects with: mvn ws:add -Drepo=<git-url>

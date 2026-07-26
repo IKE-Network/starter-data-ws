@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  starter-data-ws
+
+  Working set for the IKE starter-data repositories. Inherits from
+  ike-parent to get plugin version management for ike-maven-plugin
+  and ike-workspace-maven-plugin automatically.
+
+  Subprojects are declared unconditionally at top level.
+  ike-workspace-extension (registered in .mvn/extensions.xml) prunes
+  entries whose directory is missing from disk before Maven's model
+  validator gets to them — so a fresh clone bootstraps via
+  ws:scaffold-init without manual edits. See IKE-Network/ike-issues#460.
+
+  Usage:
+    mvn clean install                        # All cloned repos
+    mvn ws:scaffold-init                     # Clone all repos
+    mvn ws:overview                          # Working-set overview
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+                             https://maven.apache.org/xsd/maven-4.1.0.xsd"
+         root="true">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>network.ike.platform</groupId>
+        <artifactId>ike-parent</artifactId>
+        <version>135</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>local.aggregate</groupId>
+    <artifactId>starter-data-ws</artifactId>
+    <version>1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>starter-data-ws</name>
+
+    <properties>
+        <maven.compiler.release>26</maven.compiler.release>
+    </properties>
+
+    <subprojects>
+        <!-- managed by ws:add / ws:remove -->
+    </subprojects>
+</project>

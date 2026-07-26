@@ -1,0 +1,48 @@
+# starter-data-ws .gitignore
+# ═══════════════════════════
+#
+# Ignore everything, whitelist only working-set-owned files.
+# Subproject repos are independent git repos cloned by ws:scaffold-init.
+
+# ── Ignore everything by default ─────────────────────────────────
+*
+
+# ── Whitelist working-set-level files ────────────────────────────
+!.gitignore
+!pom.xml
+!workspace.yaml
+!README.adoc
+!GOALS.md
+!WS-REFERENCE.md
+# Generated working-set guidance + hand-authored notes (ike-issues#790)
+!CLAUDE.md
+!CLAUDE-*.md
+!mvnw
+!mvnw.cmd
+!versions-upgrade-rules.yaml
+
+# ── Whitelist scaffold lockfile ──────────────────────────────────
+!.ike/
+!.ike/scaffold.lock
+
+# ── Whitelist working-set-owned directories ──────────────────────
+!.mvn/
+!.mvn/**
+!checkpoints/
+!checkpoints/**
+!.run/
+!.run/**
+
+# ── IntelliJ project config (curated slice) ──────────────────────
+!.idea/
+!.idea/.gitignore
+!.idea/kotlinc.xml
+!.idea/encodings.xml
+!.idea/jarRepositories.xml
+
+# ws:* goal reports
+ws꞉*.md
+!.gitattributes
+
+# ike:* goal reports
+ike꞉*.md
