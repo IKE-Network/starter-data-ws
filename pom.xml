@@ -44,5 +44,6 @@
 
     <subprojects>
         <subproject>ike-starter-set</subproject>
+        <subproject>rich-surface-starter-knowledge</subproject>
     </subprojects>
 </project>

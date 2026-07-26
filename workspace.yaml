@@ -33,3 +33,14 @@ subprojects:
     version: "1-chronology-builder-SNAPSHOT"
     groupId: network.ike.foundation
     depends-on: []
+
+  rich-surface-starter-knowledge:
+    description: >
+      rich-surface-starter-knowledge subproject.
+    repo: git@github.com-graphlet:knowledge-graphlet/rich-surface-starter-knowledge.git
+    branch: feature/chronology-builder
+    version: "1-chronology-builder-SNAPSHOT"
+    groupId: network.ike.komet
+    depends-on:
+      - subproject: ike-starter-set
+        relationship: build
