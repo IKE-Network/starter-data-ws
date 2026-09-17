@@ -46,3 +46,6 @@ ws꞉*.md
 
 # ike:* goal reports
 ike꞉*.md
+
+# ws vcs bridge state (tool-written)
+.ike/vcs-state

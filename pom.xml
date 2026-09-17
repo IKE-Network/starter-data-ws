@@ -38,6 +38,13 @@
 
     <name>starter-data-ws</name>
 
+    <scm>
+        <connection>scm:git:https://github.com/IKE-Network/starter-data-ws.git</connection>
+        <developerConnection>scm:git:git@github.com:IKE-Network/starter-data-ws.git</developerConnection>
+        <url>https://github.com/IKE-Network/starter-data-ws</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <distributionManagement>
         <!-- Explicit <site> URL — inheriting ike-parent outside the
              ike-platform reactor pulls in a site URL template tuned for
