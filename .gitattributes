@@ -1,0 +1,15 @@
+# Line-ending policy — managed by ws:scaffold-publish
+# ──────────────────────────────────────────────────────
+#
+# Windows batch files MUST be CRLF or cmd.exe chokes — symptoms range
+# from "The system cannot find the path specified" to silent failure.
+# Without this file, mvnw.cmd checked out under core.autocrlf=false
+# (or input) is broken on Windows.
+#
+# Tracked in IKE-Network/ike-issues#189.
+
+*.cmd  text eol=crlf
+*.bat  text eol=crlf
+*.sh   text eol=lf
+mvnw   text eol=lf
+* text=auto
