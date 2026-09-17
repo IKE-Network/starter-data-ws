@@ -47,3 +47,15 @@ ike꞉*.md
 
 # ws vcs bridge state (tool-written)
 .ike/vcs-state
+# BEGIN ike-managed
+# Scaffold-tracked files (whitelisted out of the catch-all ignore)
+!.ike/
+!.ike/scaffold.lock
+!.mvn/
+!.mvn/extensions.xml
+!.mvn/maven.config
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.properties
+!mvnw
+!mvnw.cmd
+# END ike-managed
