@@ -27,7 +27,7 @@
     <parent>
         <groupId>network.ike.platform</groupId>
         <artifactId>ike-parent</artifactId>
-        <version>181</version>
+        <version>191</version>
         <relativePath/>
     </parent>
 
