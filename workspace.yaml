@@ -20,7 +20,7 @@ generated: 2026-07-25
 
 defaults:
   branch: main
-  maven-version: "4.0.0-rc-5"
+  maven-version: "4.0.0-rc-7"
 
 subprojects:
   # Add subprojects with: mvn ws:add -Drepo=<git-url>
