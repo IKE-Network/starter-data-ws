@@ -29,7 +29,7 @@ subprojects:
     description: >
       ike-starter-set subproject.
     repo: https://github.com/IKE-Network/ike-starter-set.git
-    branch: main
+    branch: feature/64bit
     version: "1-SNAPSHOT"
     groupId: network.ike.foundation
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -39,7 +39,7 @@ subprojects:
     description: >
       rich-surface-starter-knowledge subproject.
     repo: git@github.com-graphlet:knowledge-graphlet/rich-surface-starter-knowledge.git
-    branch: main
+    branch: feature/64bit
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
