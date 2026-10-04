@@ -33,7 +33,7 @@
 
     <groupId>local.aggregate</groupId>
     <artifactId>starter-data-ws</artifactId>
-    <version>1-SNAPSHOT</version>
+    <version>1-64bit-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>starter-data-ws</name>
