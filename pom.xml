@@ -33,7 +33,7 @@
 
     <groupId>local.aggregate</groupId>
     <artifactId>starter-data-ws</artifactId>
-    <version>1-widening-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>starter-data-ws</name>
